@@ -1,0 +1,5 @@
+input_a = input("введите время в секундах: ")
+a = (int(input_a) // 3600)
+b = ((int(input_a) % 3600) // 60)
+c = (int(input_a) - ((a*3600)+(b*60)))
+print(a,":",b,":",c)
